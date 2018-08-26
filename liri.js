@@ -31,7 +31,11 @@ switch (process.argv[2]) {
         if (err) {
           return console.log('Error occurred: ' + err);
         }
-       
-      console.log(data); 
+       console.log(data.tracks.items[0].album.artists[0].name);
+       console.log(data.tracks.items[0].name);
+       console.log(data.tracks.items[0].album.name);
+       console.log(data.tracks.items[0].external_urls.spotify);
+    //   console.log(JSON.parse(JSON.stringify(data)));
+    break;
       });
 }
