@@ -54,7 +54,8 @@ function lookup(whatDo) {
                             concert.forEach(element => {
                                 logger.info(element.venue.name);
                                 logger.info(element.venue.city + " " + element.venue.region + " " + element.venue.country);
-                                logger.info(moment(element.datetime).format("MM/DD/YYYY"), "\n");
+                                logger.info(moment(element.datetime).format("MM/DD/YYYY"));
+                                logger.info("");
                             });
                         }
                     }
