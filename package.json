@@ -21,6 +21,7 @@
     "dotenv": "^6.0.0",
     "moment": "^2.22.2",
     "node-spotify-api": "^1.0.7",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "winston": "^3.0.0"
   }
 }
